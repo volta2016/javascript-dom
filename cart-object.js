@@ -10,7 +10,7 @@ const footer = document.querySelector("#footer");
 const templateFooter = document.querySelector("#templateFooter");
 const allButtons = document.querySelectorAll(".card .btn");
 
-const fragment = document.createDocumentFragment(); //node vacío NO pertenece al DOM
+const fragment = document.createDocumentFragment(); //node vacío NO pertenece al DOM Evitamos el reflowRemove From History
 
 let cartArray = [];
 
